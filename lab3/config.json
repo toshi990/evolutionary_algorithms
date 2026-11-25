@@ -1,0 +1,87 @@
+{
+  "student": {
+    "N": 20,
+    "Q": 1,
+    "Y": 26,
+    "group": "Б24-517",
+    "variant": 14,
+    "track": "A"
+  },
+  "data": {
+    "seed": 20261403
+  },
+  "algorithm": {
+    "population_size": 60,
+    "evaluation_budget": 4200,
+    "crossover_probability": 0.9,
+    "mutation_probability": 0.1,
+    "tournament_size": 2,
+    "weighted_elite_size": 2
+  },
+  "weighted_profiles": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0.6,
+      0.2,
+      0.2
+    ],
+    [
+      0.2,
+      0.6,
+      0.2
+    ],
+    [
+      0.2,
+      0.2,
+      0.6
+    ],
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ]
+  ],
+  "hypervolume_reference": [
+    1.1,
+    1.1,
+    1.1
+  ],
+  "experiments": {
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ]
+  }
+}

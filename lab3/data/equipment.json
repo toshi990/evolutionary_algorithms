@@ -1,0 +1,240 @@
+{
+  "seed": 20261403,
+  "synthetic": true,
+  "assumptions": [
+    "Ровно один предмет из каждой обязательной категории.",
+    "Надёжность комплекта — вероятность исправности всех предметов при независимых отказах."
+  ],
+  "categories": [
+    {
+      "name": "Палатка",
+      "items": [
+        {
+          "name": "Палатка: облегчённый вариант",
+          "utility": 39,
+          "mass_g": 1244,
+          "reliability_permille": 923
+        },
+        {
+          "name": "Палатка: функциональный вариант",
+          "utility": 59,
+          "mass_g": 1942,
+          "reliability_permille": 966
+        },
+        {
+          "name": "Палатка: надёжный вариант",
+          "utility": 47,
+          "mass_g": 2875,
+          "reliability_permille": 995
+        }
+      ]
+    },
+    {
+      "name": "Спальный мешок",
+      "items": [
+        {
+          "name": "Спальный мешок: облегчённый вариант",
+          "utility": 30,
+          "mass_g": 794,
+          "reliability_permille": 906
+        },
+        {
+          "name": "Спальный мешок: функциональный вариант",
+          "utility": 49,
+          "mass_g": 1166,
+          "reliability_permille": 966
+        },
+        {
+          "name": "Спальный мешок: надёжный вариант",
+          "utility": 35,
+          "mass_g": 1534,
+          "reliability_permille": 990
+        }
+      ]
+    },
+    {
+      "name": "Горелка",
+      "items": [
+        {
+          "name": "Горелка: облегчённый вариант",
+          "utility": 23,
+          "mass_g": 383,
+          "reliability_permille": 904
+        },
+        {
+          "name": "Горелка: функциональный вариант",
+          "utility": 37,
+          "mass_g": 684,
+          "reliability_permille": 952
+        },
+        {
+          "name": "Горелка: надёжный вариант",
+          "utility": 27,
+          "mass_g": 896,
+          "reliability_permille": 995
+        }
+      ]
+    },
+    {
+      "name": "Фильтр воды",
+      "items": [
+        {
+          "name": "Фильтр воды: облегчённый вариант",
+          "utility": 32,
+          "mass_g": 243,
+          "reliability_permille": 907
+        },
+        {
+          "name": "Фильтр воды: функциональный вариант",
+          "utility": 52,
+          "mass_g": 339,
+          "reliability_permille": 945
+        },
+        {
+          "name": "Фильтр воды: надёжный вариант",
+          "utility": 42,
+          "mass_g": 455,
+          "reliability_permille": 991
+        }
+      ]
+    },
+    {
+      "name": "Навигация",
+      "items": [
+        {
+          "name": "Навигация: облегчённый вариант",
+          "utility": 33,
+          "mass_g": 153,
+          "reliability_permille": 914
+        },
+        {
+          "name": "Навигация: функциональный вариант",
+          "utility": 48,
+          "mass_g": 213,
+          "reliability_permille": 953
+        },
+        {
+          "name": "Навигация: надёжный вариант",
+          "utility": 38,
+          "mass_g": 276,
+          "reliability_permille": 992
+        }
+      ]
+    },
+    {
+      "name": "Связь",
+      "items": [
+        {
+          "name": "Связь: облегчённый вариант",
+          "utility": 34,
+          "mass_g": 286,
+          "reliability_permille": 940
+        },
+        {
+          "name": "Связь: функциональный вариант",
+          "utility": 54,
+          "mass_g": 476,
+          "reliability_permille": 947
+        },
+        {
+          "name": "Связь: надёжный вариант",
+          "utility": 40,
+          "mass_g": 652,
+          "reliability_permille": 984
+        }
+      ]
+    },
+    {
+      "name": "Аптечка",
+      "items": [
+        {
+          "name": "Аптечка: облегчённый вариант",
+          "utility": 31,
+          "mass_g": 357,
+          "reliability_permille": 925
+        },
+        {
+          "name": "Аптечка: функциональный вариант",
+          "utility": 43,
+          "mass_g": 535,
+          "reliability_permille": 953
+        },
+        {
+          "name": "Аптечка: надёжный вариант",
+          "utility": 35,
+          "mass_g": 706,
+          "reliability_permille": 996
+        }
+      ]
+    },
+    {
+      "name": "Освещение",
+      "items": [
+        {
+          "name": "Освещение: облегчённый вариант",
+          "utility": 19,
+          "mass_g": 127,
+          "reliability_permille": 903
+        },
+        {
+          "name": "Освещение: функциональный вариант",
+          "utility": 30,
+          "mass_g": 169,
+          "reliability_permille": 971
+        },
+        {
+          "name": "Освещение: надёжный вариант",
+          "utility": 25,
+          "mass_g": 258,
+          "reliability_permille": 984
+        }
+      ]
+    },
+    {
+      "name": "Питание электроники",
+      "items": [
+        {
+          "name": "Питание электроники: облегчённый вариант",
+          "utility": 24,
+          "mass_g": 454,
+          "reliability_permille": 923
+        },
+        {
+          "name": "Питание электроники: функциональный вариант",
+          "utility": 38,
+          "mass_g": 647,
+          "reliability_permille": 947
+        },
+        {
+          "name": "Питание электроники: надёжный вариант",
+          "utility": 33,
+          "mass_g": 942,
+          "reliability_permille": 991
+        }
+      ]
+    },
+    {
+      "name": "Защитная одежда",
+      "items": [
+        {
+          "name": "Защитная одежда: облегчённый вариант",
+          "utility": 35,
+          "mass_g": 772,
+          "reliability_permille": 921
+        },
+        {
+          "name": "Защитная одежда: функциональный вариант",
+          "utility": 49,
+          "mass_g": 1147,
+          "reliability_permille": 956
+        },
+        {
+          "name": "Защитная одежда: надёжный вариант",
+          "utility": 38,
+          "mass_g": 1613,
+          "reliability_permille": 989
+        }
+      ]
+    }
+  ]
+}

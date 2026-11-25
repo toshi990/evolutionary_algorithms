@@ -1,0 +1,6 @@
+{
+  "student": {"N": 20, "Q": 1, "Y": 26, "group": "Б24-517", "variant": 14},
+  "data": {"seed": 20261420, "vertices": 36, "max_stations": 4, "chord_probability": 0.045},
+  "algorithm": {"population_size": 80, "evaluation_budget": 4000, "tournament_size": 3, "elite_size": 2, "crossover_probability": 0.9, "mutation_probability": 0.35, "penalty": 37},
+  "experiments": {"seeds": [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]}
+}
